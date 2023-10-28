@@ -20,6 +20,7 @@ public class Console {
         println(prompt);
         String userInput = scanner.nextLine();
         return userInput;
+
     }
 
     public static Integer getIntegerInput(String prompt) {
