@@ -6,14 +6,20 @@ import jdk.dynalink.Operation;
 public class MainCalculator {
 
     public void compute(){
-        System.out.println("Welcome to our Calculator\nPlease enter a number");
-        String display = String.valueOf(0);
+        Scanner scanner = new Scanner(System.in);
         //ScinentificFeatures scientific = new ScientificFeatures;
         //Operation operation = new Operation();
+        System.out.println("Welcome to our Calculator\nPlease enter a number");
+        String display = String.valueOf(0);
+
 
         while(true) {
-            System.out.println("1. Add\n 2. Subtract\n3. Multiply\n4. Division");
-            System.out.println("");
+            //list of choices to be presented to the user
+            String[] choiceArray1 = {
+                "1. Clear Display", "2. Add", "3. Subtract", "4. Multiply", "5. Division",
+                "6. Square", "7. Square Root", "8. Exponential Calculation", "9. Inverse", "10. Invert",
+                "11. sin(", "12. cos(", "13. tan("
+            };
              int input = 7;
             }
 
