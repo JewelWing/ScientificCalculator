@@ -214,7 +214,6 @@ public class Computing {
                         solution = factorial.factorial(input1);
                         display = String.valueOf(solution);
                         System.out.printf("Solution %s", display);
-
                 }
             }else if (userInput == 26){
                 System.out.println("Turning off calculator...");
@@ -225,8 +224,7 @@ public class Computing {
 
 
     }
-
-}
+    }
 }
 
 
